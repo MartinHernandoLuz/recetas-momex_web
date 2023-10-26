@@ -55,11 +55,21 @@ header {
 }
 
 main {
-    background-color: #00000055;
+    background-color: #000000c0;
     border: 2px solid yellow;	
 
     flex-grow: 1;
+    overflow: auto;
+    max-height: 524px;
+    max-width: 90%;
 }
+
+/*hay que agregar padding a una caja sin flex o se va todo al carajo*/
+.texto {
+    padding: 10px 20%;
+    text-align: center;
+}
+
 aside {
     background-color: #000000cb;
     border: 2px solid yellow;	
