@@ -1,0 +1,9 @@
+html, body {
+    height: 100%;
+}
+body {
+    background-image: url(/img/pexels-james-wheeler-1542493.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
