@@ -86,3 +86,9 @@ footer {
     flex-basis: 50px;
     max-height: 5%;
 }
+
+ul {
+    list-style-position: inherit;
+    margin: 0 0;
+    padding: 0 0 0 0;
+}
