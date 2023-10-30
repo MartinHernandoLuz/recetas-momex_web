@@ -46,8 +46,8 @@ header {
     flex-direction: row-reverse;
 }
 .imagen img {
-    max-width: 60px;
-    max-height: 60px;
+    max-width: 50px;
+    max-height: 50px;
 }
 
 .hijo {
@@ -115,7 +115,7 @@ aside {
 }
 
 footer {
-    background-color: #00000000;
+    background-color: #000000d2;
     border: 2px solid yellow;	
 
     flex-grow: 1;
@@ -138,11 +138,44 @@ p:hover {
     border-radius: 15px;
 }
 
+.img-footer1 {
+    background-image: url(iconos/477\ sin\ título_20231030103930.png);
+}
+.img-footer2 {
+    background-image: url(iconos/477\ sin\ título_20231030104723.png);
+}
+.img-footer3 {
+    background-image: url(iconos/477\ sin\ título_20231030105044.png);
+}
+.img-footer4 {
+    background-image: url(iconos/477\ sin\ título_20231030105240.png);
+}
+.img-footer5 {
+    background-image: url(iconos/477\ sin\ título_20231030105408.png);
+}
+
+
 .img-footer {
-    background-image: url(img/585e4bf3cb11b227491c339a.png);
+    
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     flex-grow: 1;
 
+    text-decoration: none;
+    color: #ffff0000;
+    font-size: 110%;
+    transition: .5s;
+}
+
+.img-footer:hover {
+    color: #ffff00;
+    background-color: #000000;
+    background-image: none;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
