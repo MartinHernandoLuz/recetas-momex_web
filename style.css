@@ -6,6 +6,8 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
+   
   }
 
 .flexContainer {
@@ -60,8 +62,9 @@ main {
 
     flex-grow: 1;
     overflow: auto;
-    max-height: 524px;
+    max-height: 528px;
     max-width: 90%;
+    scroll-behavior: smooth;
 }
 
 /*hay que agregar padding a una caja sin flex o se va todo al carajo*/
@@ -76,19 +79,70 @@ aside {
 
     flex-grow: 1;
     max-width: 10%;
+    max-height: 528px;
+
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    
+}
+
+.anclas {
+    flex-grow: 1;
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.062);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: .5s;
+    min-height: 20px;
+}
+.anclas:hover {
+    background: radial-gradient( rgb(255, 255, 255),rgb(68, 68, 68));
+}
+
+.aside-a {
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+
+    transition: .5s;
+}
+.aside-a:hover {
+    font-size: 130%;
+    color: black;
 }
 
 footer {
-    background-color: #000000ea;
+    background-color: #00000000;
     border: 2px solid yellow;	
 
     flex-grow: 1;
     flex-basis: 50px;
     max-height: 5%;
+
+    display: flex;
+    
 }
 
-ul {
-    list-style-position: inherit;
-    margin: 0 0;
-    padding: 0 0 0 0;
+
+p {
+    font-size: 100%;
+}
+p:hover {
+    font-size: 150%;
+    background-color: rgba(0, 0, 0, 0.849);
+
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.img-footer {
+    background-image: url(img/585e4bf3cb11b227491c339a.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+
 }
