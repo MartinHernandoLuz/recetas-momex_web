@@ -38,6 +38,7 @@ header {
     
 }
 
+
 /*ajusta el título del header*/
 .titulo {
     flex-grow: 1;
@@ -202,3 +203,42 @@ p:hover {
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 913px) {
+    header {
+     order: 1;
+    }
+    footer {
+        order: 2;
+        min-height: 70px;
+    }
+    .hijo {
+        order: 3;
+        flex-direction: column;
+    }
+    aside {
+        flex-direction: row;
+        max-width: 912px;
+        max-height: 10%;
+        min-height: 70px;
+        order: 1;
+
+        overflow: auto;
+    }
+    .anclas {
+        min-width: 100px;
+    }
+
+    main {
+        max-width: 912px;
+        max-height: 100%;
+        order:2
+    }
+
+ }
+
+ @media (max-width: 400px) {
+    .titulo {
+        font-size: 150%;
+    }
+ }
