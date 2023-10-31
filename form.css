@@ -7,6 +7,62 @@ body {
     background-repeat: no-repeat;
 }
 
+label {
+    color:white;
+}
+
+.container {
+    padding: 20px 300px 20px 300px;
+}
+
+@media (max-width: 1000px){
+    body {
+        background-size: cover;
+    }
+    .container {
+        padding: 20px 50px 20px 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 20px 10px 20px 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 div {
     display: flex;
     height: 100%;
@@ -53,3 +109,13 @@ button {
     width: 50%;
     height: 50%;
 }
+
+
+
+
+            <div class="label lab1"><label>Nombre: <input type="text" placeholder="Nombre"></label></div>
+            <div class="label"><label>Email: <input type="email" placeholder="email"></label></div>
+            <div class="label"><label>contraseña: <input type="password" placeholder="contraseña"></label></div>
+            <div class="label lab3"><button class="label" type="submit">Enviar</button></div>
+
+*/

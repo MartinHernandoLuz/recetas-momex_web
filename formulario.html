@@ -3,17 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="form.css">
     <title>Suscribir</title>
 </head>
 <body>
-    <div>
-        <form action="" method="post">
-            <div class="label lab1"><label>Nombre: <input type="text" placeholder="Nombre"></label></div>
-            <div class="label"><label>Email: <input type="email" placeholder="email"></label></div>
-            <div class="label"><label>contraseña: <input type="password" placeholder="contraseña"></label></div>
-            <div class="label lab3"><button class="label" type="submit">Enviar</button></div>
+    <div class="container">
+        <form action="" method="post" class="row g-3 m-3">
+
+            <div class="col-12">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="nombre">
+            </div>
+            
+            <div class="col-12">
+                <label for="email-input" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email-input" placeholder="Email">
+            </div>
+
+            <div class="col-6">
+                <label for="password-1" class="form-label">contraseña</label>
+                <input type="password" class="form-control" id="password-1" placeholder="contraseña">
+            </div>
+
+            <div class="col-6">
+                <label for="password-2" class="form-label">repite contraseña</label>
+                <input type="password" class="form-control" id="password-2" placeholder="contraseña">
+            </div>
+
+            <div class="col-12">
+                <div class="form-check">
+                    <input type="checkbox" id="check-noticias" class="form-check-input">
+                    <label for="check-noticias" class="form-check-label">quiero recibir notificaciones de nuevas recetas</label>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">
+                    regístrate
+                </button>
+            </div>
+
         </form>
     </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
