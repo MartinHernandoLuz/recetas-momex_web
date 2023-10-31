@@ -24,6 +24,7 @@ fondo*/
     color: white;
 }
 
+
 /*en el header está el Título y una imagen de usuario para suscribirse a los avisos*/
 header {
     background-color: #000000ea;
@@ -88,6 +89,7 @@ main {
     text-align: center;
 }
 
+/*hermano del main, aquí irán las anclas*/
 aside {
     background-color: #000000cb;
     border: 2px solid yellow;	
@@ -102,6 +104,7 @@ aside {
     
 }
 
+/*las anclas deltro del aside*/
 .anclas {
     flex-grow: 1;
     margin-top: 5px;
@@ -118,6 +121,7 @@ aside {
     background: radial-gradient( rgb(255, 255, 255),rgb(68, 68, 68));
 }
 
+/*link del aside*/
 .aside-a {
     color: rgb(255, 251, 0);
     text-decoration: none;
@@ -129,6 +133,7 @@ aside {
     color: black;
 }
 
+/*el pie de página donde van las redes*/
 footer {
     background-color: #000000d2;
     border: 2px solid yellow;	
@@ -141,10 +146,11 @@ footer {
     
 }
 
-
+/*párrafos en el main*/
 p {
     font-size: 100%;
 }
+/*efecto lupa*/
 p:hover {
     font-size: 150%;
     background-color: rgba(0, 0, 0, 0.849);
@@ -153,6 +159,8 @@ p:hover {
     border-radius: 15px;
 }
 
+
+/*desde aquí solo tiene que ver con las imágenes de redes sociales*/
 .img-footer1 {
     background-image: url(iconos/477\ sin\ título_20231030103930.png);
 }
