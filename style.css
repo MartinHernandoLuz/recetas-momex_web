@@ -86,7 +86,7 @@ main {
 
 /*hay que agregar padding a una caja sin flex o se va todo al carajo*/
 .texto {
-    padding: 10px 20%;
+    padding: 10px 15%;
     text-align: center;
 }
 
@@ -149,7 +149,7 @@ footer {
 
 /*párrafos en el main*/
 p {
-    font-size: 120%;
+    font-size: 100%;
 }
 /*efecto lupa*/
 p:hover {
@@ -223,7 +223,7 @@ ul {
     align-items: center;
     padding: 0;
     list-style-type: square;
-    font-size: 120%;
+    font-size: 100%;
 
     color: rgb(0, 255, 234);
 }
@@ -235,6 +235,9 @@ ul:hover {
     padding: 5px;
     border-radius: 15px;
 }
+
+
+
 
 
 
