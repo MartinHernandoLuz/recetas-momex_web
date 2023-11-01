@@ -149,7 +149,7 @@ footer {
 
 /*párrafos en el main*/
 p {
-    font-size: 100%;
+    font-size: 120%;
 }
 /*efecto lupa*/
 p:hover {
@@ -204,6 +204,44 @@ p:hover {
     justify-content: center;
 }
 
+
+/*acomodando las listas*/
+h2 {
+    color: #ffff00;
+   
+}
+h2:not(:first-of-type) { /*elige todos los h2, menos el primero*/
+    margin-top: 200px;
+}
+h3 {
+    color: #15c015;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    list-style-type: square;
+    font-size: 120%;
+
+    color: rgb(0, 255, 234);
+}
+
+ul:hover {
+    font-size: 150%;
+    background-color: rgba(0, 0, 0, 0.849);
+
+    padding: 5px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 @media (max-width: 913px) {
     header {
      order: 1;
