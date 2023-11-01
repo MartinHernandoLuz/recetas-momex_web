@@ -84,7 +84,7 @@ main {
     scroll-behavior: smooth;
 }
 
-/*hay que agregar padding a una caja sin flex o se va todo al carajo*/
+/*hay que agregar padding a una caja sin flex o se desacomoda todo*/
 .texto {
     padding: 10px 15%;
     text-align: center;
