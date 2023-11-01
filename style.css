@@ -282,4 +282,11 @@ ul:hover {
     .titulo {
         font-size: 150%;
     }
+    ul:hover {
+        font-size: 100%;
+        background-color: rgba(0, 0, 0, 0.849);
+    
+        padding: 5px;
+        border-radius: 15px;
+    }
  }
