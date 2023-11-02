@@ -91,7 +91,7 @@ main {
 }
 
 /*hermano del main, aquí irán las anclas*/
-aside {
+nav {
     background-color: #000000cb;
     border: 2px solid yellow;	
 
@@ -123,13 +123,13 @@ aside {
 }
 
 /*link del aside*/
-.aside-a {
+.nav-a {
     color: rgb(255, 251, 0);
     text-decoration: none;
 
     transition: .5s;
 }
-.aside-a:hover {
+.nav-a:hover {
     font-size: 130%;
     color: black;
 }
@@ -257,7 +257,7 @@ ul:hover {
         order: 3;
         flex-direction: column;
     }
-    aside {
+    nav {
         flex-direction: row;
         max-width: 912px;
         max-height: 10%;
